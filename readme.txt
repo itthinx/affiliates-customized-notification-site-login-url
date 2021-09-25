@@ -15,3 +15,5 @@ Example of customizing the login URL for affiliate notifications.
 Changes the default notification login URL to the page with slug affiliate-area if it exists; uses filters introduced in Affiliates 4.10.0.
 
 Requires [Affiliates](https://wordpress.org/plugins/affiliates/) or [Affiliates Pro](https://www.itthinx.com/shop/affiliates-pro/) or [Affiliates Enterprise](https://www.itthinx.com/shop/affiliates-enterprise/).
+
+If you want to change the login URL, fork the repository and use the desired page where this plugin assigns `$page = get_page_by_path( 'affiliate-area' );`.
